@@ -15,8 +15,7 @@ function Login() {
         // ...
       })
       .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
+        alert(error)
       });
     //some fancy firebase login shiiiiiiiiiiiiiiish........
   };
